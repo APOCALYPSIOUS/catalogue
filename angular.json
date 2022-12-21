@@ -52,7 +52,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/bootstrap/dist/css/bootstrap.rtl.css",
+              "node_modules/bootstrap/dist/css/bootstrap-grid.css",
+              "node_modules/bootstrap/dist/css/bootstrap-grid.rtl.css",
+              "node_modules/bootstrap/dist/css/bootstrap-reboot.css",
+              "node_modules/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+              "node_modules/bootstrap/dist/css/bootstrap-utilities.css",
+              "node_modules/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+
+
             ],
             "scripts": []
           },
@@ -122,5 +132,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "b7103302-cb00-47f3-9325-f17f64af526b"
   }
 }
